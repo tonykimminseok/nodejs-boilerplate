@@ -10,6 +10,7 @@ const userSchema = mongoose.Schema({
         type: String,
         // whitespaes will be removed
         trim: true,
+        unique: 1
     },
     password: {
         type: String,
